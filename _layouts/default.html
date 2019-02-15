@@ -1,28 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
- <!--  <body data-spy="scroll" data-target="#myAffix"> -->
-  <body>
-
-    {% include header.html %}
-
-    <div id="main" class="container main">
-      {{ content }}
+<body>
+  <div class="row">
+    <div class="col s12 m3">
+      <div class="table cover">
+        {% include sidebar.html %}
+      </div>
     </div>
-
-    
-    <div id="top" data-toggle="tooltip" data-placement="left" title="back to top">
-      <a href="javascript:;">
-        <div class="arrow"></div>
-        <div class="stick"></div>
-      </a>
+    <div class="col s12 m9">
+      <div class="post-listing">
+        {{ content }}
+        {% include footer.html %}
+      </div>
     </div>
-
-    {% include footer.html %}
-
-    {% include newpost.html %}
-  
-  </body>
+  </div>
+  {% include js.html %}
+</body>
 </html>
