@@ -1,15 +1,14 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
-isme2n:
-  name:              aiden min
-  email:             zooqzqz@gmail.com
+ryulth:
+  name:              ryulth kim
+  email:             dev.ryulth@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    세상에서 가장 게으르기 위해 가장 부지런한 타입.
-    글쓰는 것과 디자인, 개발을 좋아한다. 좋은게 좋은거고, 예쁜게 좋은거고, 노는게 좋은거라고 생각한다. 좋아하는게 많은 편.
+    개발도 좋아하고 운동도 좋아하고 누워서 생각하는 것을 좋아합니다.
 
   # This photo will be used in the about section
   picture:
@@ -23,7 +22,7 @@ isme2n:
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    facebook:        zooqzqz
+    facebook:        profile.php?id=100007895580711
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
@@ -47,7 +46,7 @@ isme2n:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          isme2n
+    github:          ryulth
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
@@ -58,8 +57,8 @@ isme2n:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:zooqzqz@gmail.com
-    rss:             https://isme2n.github.io/feed.xml
+    email:           mailto:dev.ryulth@gmail.com
+    # rss:             https://isme2n.github.io/feed.xml
 
 # Another author
 mdo:
