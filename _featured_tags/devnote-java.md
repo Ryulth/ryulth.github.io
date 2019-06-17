@@ -5,5 +5,5 @@ slug: java
 category: devnote
 menu: false
 order: 1
-header-img: "/img/java-logo.png"
+header-img: "/img/Java-logo.png"
 ---
