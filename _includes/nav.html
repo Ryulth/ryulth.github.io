@@ -1,33 +1,32 @@
-<nav class="post-navigation" role="navigation">
-  <div class="row">
-    <div class="col s5">
-      <div class="post-nav-prev">
-        {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" title="{{ page.previous.title | escape }}">
-          <div class="post-nav-btn">
-            <div class="post-nav-text"><span class="danger-text-color"><i class="fa fa-angle-left"></i> ~ </span><span class="hidden-md primary-text-color">{{ page.previous.title }}</span></div>
-          </div>
-        </a>
-        {% endif %}
-      </div>
+<span class="sr-only">Navigation:</span>
+<ul>
+  {% assign pages = site.pages %}
+
+  {% for document in site.documents %}
+    {% assign pages = pages | push: document %}
+  {% endfor %}
+
+  {% assign subpages = pages | where: "menu", false | sort: "order" %}
+  {% assign pages = pages | where: "menu", true | sort: "order" %}
+  {% assign count = 0%}
+  {% for node in pages %}
+  {% assign count = count | plus: 1 %}
+    <li>
+      <input type="checkbox" id="list-item-{{ count }}"/>
+      <div  class="list-wrapper">
+      <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
+       {% if node.submenu %}<label class="folder" for="list-item-{{ count }}">▾</label>{% endif %}
     </div>
-    <div class="col s2">
-      <a href="{{ site.url }}/">
-        <div class="leonids-icon">
-          <i class="fa fa-leaf"></i>
-        </div>
-      </a>
-    </div>
-    <div class="col s5 right">
-      <div class="post-nav-next">
-        {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" title="{{ page.previous.title | escape }}">
-          <div class="post-nav-btn">
-            <div class="post-nav-text"><span class="hidden-md primary-text-color">{{ page.next.title }}</span><span class="success-text-color"> ~ <i class="fa fa-angle-right"></i></span></div>
-          </div>
-        </a>
-        {% endif %}
-      </div>
-    </div>
-  </div>
-</nav>
+     <ul class="list-body">
+       {% for subnode in subpages %}
+           {% if subnode.category == node.slug %}
+             <li>
+               <a class="sidebar-nav-subitem{% if page.url == subnode.url %} active{% endif %}" href="{{ subnode.url | relative_url }}">{{ subnode.title }}</a>
+             </li>
+           {% endif %}
+         {% endfor %}
+     </ul>
+    </li>
+
+  {% endfor %}
+</ul>
