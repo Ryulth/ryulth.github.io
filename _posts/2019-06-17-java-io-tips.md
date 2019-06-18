@@ -6,7 +6,6 @@ categories: devnote
 tags: java
 ---
 
-
 ## 입력
 
 ### Scanner
