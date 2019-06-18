@@ -6,6 +6,8 @@ categories: devnote
 tags: java
 ---
 
+> Java String 주의점에 대한 내용이다.
+
 ## Java String 
 
 모든 언어에서 제일 처음 사용하는 자료형이 `String` 이다.  모든 시작은 "Hello World"를 따라 써보며 시작하기 때문이다.

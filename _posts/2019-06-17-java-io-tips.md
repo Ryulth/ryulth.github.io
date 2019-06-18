@@ -6,6 +6,8 @@ categories: devnote
 tags: java
 ---
 
+> Java I/O 사용시 좋은 성능을 내는 팁들이다.
+
 ## 입력
 
 ### Scanner
