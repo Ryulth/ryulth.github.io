@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About - 김형률
+title: About
 menu: true
 order: 10
 ---
@@ -15,8 +15,8 @@ order: 10
 ## 약력
 
 - NHN Dooray 개발실 인턴 (2019-01-02 ~ 2019-06-28)
-- 경희대학교 소프트웨어 융합대학 컴퓨터공학부 전공
+- 경희대학교 소프트웨어 융합대학 컴퓨터공학과 전공
 
-## [이력서.pdf](https://ryulth.com/resume-hyungryul.pdf)
+## [RESUME](https://ryulth.com/resume-hyungryul.pdf)
 
 
