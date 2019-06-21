@@ -13,12 +13,12 @@ url:                 https://ryulth.com
 baseurl:             ""
 
 # A very short description of your page
-tagline:             귀차니즘 률쓰 블로그
+tagline:             귀차니스트 률쓰 블로그
 
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  제주도에 살고 싶은 귀차니즘 만렙
+  제주도에 살고 싶은 귀차니스트
   이것 저것 일단 하고 보는 타입
 
 # This should be the same author as first entry in `_data/authors.yml`
