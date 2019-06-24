@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[Java]Redis Stream을 RedisTemlplate을 이용해 사용하는 방법"
-subtitle: "Redis Stream을 RedisTemlplate을 이용해 사용하는 방법"
+title:  "[Java]Spring 에서 Redis Stream 을 사용하는 방법
+subtitle: "Spring 에서 Redis Stream 을 사용하는 방법"
 categories: devnote
 tags: java
 ---
