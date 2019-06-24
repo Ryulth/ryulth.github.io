@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Java]Spring 에서 Redis Stream 을 사용하는 방법
+title:  "[Java]Spring 에서 Redis Stream 을 사용하는 방법"
 subtitle: "Spring 에서 Redis Stream 을 사용하는 방법"
 categories: devnote
 tags: java
