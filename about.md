@@ -21,7 +21,8 @@ order: 10
 - 경희대학교 소프트웨어 융합대학 컴퓨터공학과 전공
 
 ## 다운로드
-- [RESUME](https://ryulth.com/resume-hyungryul.pdf)
-- [CAREER](https://ryulth.com/career-hyungryul.pdf)
+- [이력서 (KO)](https://ryulth.com/resume-ko.pdf)
+- [경력기술서 (KO)](https://ryulth.com/cv-ko.pdf)
+- [사이드 프로젝트 (KO)](https://ryulth.com/-ko.pdf)
 
 
