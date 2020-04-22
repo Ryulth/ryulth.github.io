@@ -23,6 +23,6 @@ order: 10
 ## 다운로드
 - [이력서 (KO)](https://ryulth.com/resume-ko.pdf)
 - [경력기술서 (KO)](https://ryulth.com/cv-ko.pdf)
-- [사이드 프로젝트 (KO)](https://ryulth.com/-ko.pdf)
+- [사이드 프로젝트 (KO)](https://ryulth.com/side-project-ko.pdf)
 
 
