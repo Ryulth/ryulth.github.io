@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[Java]Spring 에서 Redis Stream 을 사용하는 방법"
+title:  "[Spring]Spring 에서 Redis Stream 을 사용하는 방법"
 subtitle: "Spring 에서 Redis Stream 을 사용하는 방법"
 categories: devnote
-tags: java
+tags: spring
 ---
 
 > spring에서 RedisTemplate를 사용해 Redis Stream을 사용하는 법을 알아보자

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[Java/Kotlin]Spring Lettuce with ElastiCache Redis Read Replica config"
+title:  "[Spring]Spring Lettuce with ElastiCache Redis Read Replica config"
 subtitle: "Spring 에서 Redis Stream 을 사용하는 방법"
 categories: devnote
-tags: java
+tags: spring
 ---
 
 > Spring에서 Lettuce 를 사용해 ElastiCache Redis Read Replica 설정하기.
