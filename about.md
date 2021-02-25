@@ -15,7 +15,6 @@ order: 10
 - Java, Kotlin, Python 좋아해요
 
 ## 약력
-- HYPERCONNECT AZAR Studio Lounge SQUAD팀 Backend Software Engineer (2020-03-18 ~ )
-- HYPERCONNECT AZAR Studio API팀 Backend Software Engineer (2019-11-04 ~ )
+- HYPERCONNECT AZAR Studio Backend Dev1 Team Backend Software Engineer (2019-11-04 ~ )
 - NHN Dooray 개발실 Backend Software Engineer 인턴 (2019-01-02 ~ 2019-06-28)
 - 경희대학교 소프트웨어 융합대학 컴퓨터공학과 전공
